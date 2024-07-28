@@ -1,0 +1,35 @@
+my_blog_frontend/
+│
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   ├── BlogPost.js
+│   │   ├── BlogList.js
+│   │   ├── Login.js
+│   │   ├── Signup.js
+│   │   ├── Profile.js
+│   │   ├── Sidebar.js
+│   ├── pages/
+│   │   ├── HomePage.js
+│   │   ├── BlogPage.js
+│   │   ├── AboutPage.js
+│   │   ├── ContactPage.js
+│   │   ├── CategoryPage.js
+│   │   ├── GenAIPostsPage.js
+│   │   ├── CryptoPostsPage.js
+│   │   ├── NewsPostsPage.js
+│   ├── services/
+│   │   ├── api.js
+│   ├── App.js
+│   ├── index.js
+│   ├── routes.js
+│   ├── styles/
+│
+├── package.json
+├── .gitignore

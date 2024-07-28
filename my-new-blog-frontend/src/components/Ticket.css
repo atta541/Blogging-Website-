@@ -1,0 +1,30 @@
+.ticker-container {
+    overflow: hidden;
+    white-space: nowrap;
+    background: #1F2937; /* Background color for the ticker */
+    padding: 10px 0;
+    /* margin-top: 20px; */
+  }
+  
+  .ticker {
+    display: inline-block;
+    white-space: nowrap;
+    animation: ticker 30s linear infinite;
+  }
+  
+  .ticker-item {
+    display: inline-block;
+    padding: 0 2rem;
+    color: #fff; /* Text color */
+    font-size: 16px;
+  }
+  
+  @keyframes ticker {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
