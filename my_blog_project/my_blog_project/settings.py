@@ -151,7 +151,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # Absolute filesystem path to the 
 
 
 
-ALLOWED_HOSTS = ['*']  # Allow all hosts temporarily for development
+# ALLOWED_HOSTS = ['*']  # Allow all hosts temporarily for development
+ALLOWED_HOSTS = ['.vercel.app']  
 
 
 REST_FRAMEWORK = {
