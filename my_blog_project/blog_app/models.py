@@ -25,8 +25,6 @@ from ckeditor.fields import RichTextField  # Import RichTextField
 class Post(models.Model):
     # title = models.CharField(max_length=200)
     title = RichTextField()
-
-
     content = RichTextField()  # Replace TextField with RichTextField
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True)

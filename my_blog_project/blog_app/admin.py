@@ -37,6 +37,7 @@ class PostAdmin(admin.ModelAdmin):
     
     plain_title.short_description = 'Title'
 
+
 @admin.register(Comment)
 class CommentAdmin(admin.ModelAdmin):
     list_display = ['post', 'user', 'content', 'created_at']

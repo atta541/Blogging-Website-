@@ -180,3 +180,4 @@ CKEDITOR_UPLOAD_PATH = 'uploads/'
 
 # settings.py
 CORS_ALLOW_ALL_ORIGINS = True
+# setting
