@@ -23,6 +23,14 @@
         "dest": "Blog/my_blog_project/$1"
       },
       {
+        "src": "/static/(.*)",
+        "dest": "Blog/my_blog_project/static/$1"
+      },
+      {
+        "src": "/media/(.*)",
+        "dest": "Blog/my_blog_project/media/$1"
+      },
+      {
         "src": "/(.*)",
         "dest": "Blog/my-new-blog-frontend/build/$1"
       }
